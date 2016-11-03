@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>标题</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+</head>
+<body>
+	<canvas width='600' height='600' style='display:block;margin:30px auto;border:1px solid #000'></canvas>
+	<script type="text/javascript" src='classCompre.js'></script>
+	<script type="text/javascript" src='Snake.js'></script>
+	<script type="text/javascript">
+	var cav=document.getElementsByTagName('canvas')[0];
+	var cax=cav.getContext('2d');
+		Snake.getInstance(cav,cax,10,20,160);
+	</script>
+</body>
+</html>
